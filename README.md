@@ -20,7 +20,8 @@
                          Facebook Cracker
 
 
-This python program can crack facebook account and recover facebook password.
+This python program can crack facebook account and recover facebook password by using wordlist provided.
+###Awesome Project ####
 
 
 ### Installation ###
