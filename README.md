@@ -26,7 +26,7 @@ This python program can crack facebook account and recover facebook password.
 ### Installation ###
 
 <ul>
-  <li>python</li>
+  <li>python3</li>
   <li>toilet</li>
   </ul>
 
@@ -38,9 +38,9 @@ This python program can crack facebook account and recover facebook password.
 <br>
  cd fbcrack4.0
 <br>
- sudo apt install python2-pip
+ sudo apt install python3-pip
 <br>
- sudo python2 fbcrack.py
+ sudo python3 fbcrack.py
 
 ### Screenshots ###
 
